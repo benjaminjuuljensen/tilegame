@@ -1,0 +1,76 @@
+body {
+    background-image: url(images/wood.jpg);
+    background-repeat: repeat;
+    height: auto;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+}
+nav ul {
+    list-style: none;
+}
+nav ul li {
+    display: inline;
+    padding: 20px 20px;
+    text-decoration: none;
+}
+nav ul i {
+    font-size: 30px;
+    padding: 10px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;  
+}
+nav ul .signout{
+    background-color: transparent;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 15px;
+    font-weight: bold;
+    float: right;
+}
+.header {
+    background-image: url(images/map.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    max-width: 72%;
+}
+.header ul li {
+    display: inline;
+    padding: 10%;
+}
+.container {
+    background-image: url(images/island.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    max-width: 70%;
+}
+#canvas {
+    width: 100%;
+    background-color: transparent;
+}
+.footer {
+    background-image: url(images/map.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    max-width: 72%;
+    height: auto;
+}
+.footer button {
+    background-color: transparent;
+    height: auto;
+    border: none;
+}
+.footer button i {
+    font-size: 20px;
+    height: auto;
+    color: #ffffff;
+    padding: 10px;
+    background-color: transparent;
+}
